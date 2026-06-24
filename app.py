@@ -299,8 +299,10 @@ if uploaded_file:
     # History
 
     history = pd.read_csv(
-        "emotion_history.csv"
-    )
+    "emotion_history.csv",
+    header=None,
+    names=["Timestamp", "Emotion"]
+)
 
     st.subheader(
         "📈 Emotion Timeline"
