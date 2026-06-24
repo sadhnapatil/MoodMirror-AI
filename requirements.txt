@@ -7,3 +7,4 @@ joblib
 librosa
 soundfile
 matplotlib
+fpdf2
